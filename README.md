@@ -18,26 +18,33 @@ This program will currently take any input, up to the `Number.MAX_SAFE_INTEGER` 
 
 This program is not intended to prove the Collatz Conjecture false, but rather to show that any number smaller than the `Number.MAX_SAFE_INTEGER` limit (2<sup>53</sup> – 1) does, in fact, conform to it.
 
+---
+
 ## **Recent Updates**
 
 :white_check_mark: &nbsp; There are now safeguards for numbers beyond Step 1, being larger than the `Number.MAX_SAFE_INTEGER` limit. Numbers larger than the limit will now terminiate the program and provide an error message in console.
 
 ## **Updates Currently Underway**
 
-:soon: I would like to build out a more robust UI, to display what is happening to the numbers on the page instead of inside the console. This will allow more users to be able to interact with the program, understand what is happening, and learn from it.
+:soon: &nbsp; I would like to build out a more robust UI, to display what is happening to the numbers on the page instead of inside the console. This will allow more users to be able to interact with the program, understand what is happening, and learn from it.
 
-:soon: Once the UI is updated, I intend to release the program online to the public, either hosted on my personal website, a new website, or my github pages account. When that step has been completed, I will updated this README.md to include links to the relevant site or page.
+:soon: &nbsp; Once the UI is updated, I intend to release the program online to the public, either hosted on my personal website, a new website, or my github pages account. When that step has been completed, I will updated this README.md to include links to the relevant site or page.
 
 ## **Future Planning**
 
-Once the above improvements have been made, I intend to begin building it out using `BigInt()` values, (which I currently have no experience with).
+ :rocket: &nbsp; Once the above improvements have been made, I intend to begin building it out using `BigInt()` values, (which I currently have no experience with).
 
-For my own curiosity, I would like to see how large of a number I can successfully run through my program, once the `Number.MAX_SAFE_INTEGER` limit is no longer a barrier to larger numbers.
+:rocket: &nbsp; For my own curiosity, I would like to see how large of a number I can successfully run through my program, once the `Number.MAX_SAFE_INTEGER` limit is no longer a barrier to larger numbers.
 
 ---
 
-### **About Me**
+## **About Me**
 
-I am a Software Engineer, and am also currently a University Student with a casual interest in Mathematics, and absolute fascination with Computer Science.
+I am a Software Engineer, and am also currently a University Student with a casual interest in Mathematics, and absolute fascination with Computer Science. I am beginning an initial build of this program at just before midnight on a Monday, because it sounded like a fun idea. That's the type of person I am. <br/><br/>
+  
 
-I am beginning an initial build of this program at just before midnight on a Monday, because it sounded like a fun idea. That's the type of person I am.
+### **Connect with Me:**
+
+<br/>
+
+[![Twitter @thejessicafelts](https://raw.githubusercontent.com/thejessicafelts/thejessicafelts/master/icon-twitter.png)](https://www.twitter.com/thejessicafelts) &nbsp; &nbsp; [![Instagram @thejessicafelts](https://raw.githubusercontent.com/thejessicafelts/thejessicafelts/master/icon-instagram.png)](https://www.instagram.com/thejessicafelts) &nbsp; &nbsp; [![LinkedIn @thejessicafelts](https://raw.githubusercontent.com/thejessicafelts/thejessicafelts/master/icon-linkedin.png)](https://www.linkedin.com/in/thejessicafelts)

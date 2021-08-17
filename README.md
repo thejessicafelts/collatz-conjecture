@@ -20,7 +20,7 @@ This program is not intended to prove the Collatz Conjecture false, but rather t
 
 ## **Recent Updates**
 
-:white_check_mark: There is no safeguard for numbers beyond Step 1 being larger than the `Number.MAX_SAFE_INTEGER` limit. This will be the next issue addressed by the program.
+:white_check_mark: There are now safeguards for numbers beyond Step 1, being larger than the `Number.MAX_SAFE_INTEGER` limit. Numbers larger than the limit will now terminiate the program and provide an error message in console.
 
 ## **Updates Currently Underway**
 

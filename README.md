@@ -13,8 +13,6 @@ Then each term is obtained from the previous term as follows:
 The conjecture is that no matter what value of `n`, the sequence will always reach 1.
 
 <br />
-<br />
-<br />
 
 ## **About this Program** 
 

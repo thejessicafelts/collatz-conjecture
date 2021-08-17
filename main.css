@@ -18,6 +18,12 @@ h1 {
    margin-bottom: 10px;
 }
 
+p {
+   font-weight: 300;
+   width: 500px;
+   margin: 0 auto;
+}
+
 section#user-input {
    margin: 0 auto;
 }

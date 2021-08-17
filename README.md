@@ -18,9 +18,11 @@ This program will currently take any input, up to the `Number.MAX_SAFE_INTEGER` 
 
 This program is not intended to prove the Collatz Conjecture false, but rather to show that any number smaller than the `Number.MAX_SAFE_INTEGER` limit (2<sup>53</sup> – 1) does, in fact, conform to it.
 
-## **Updates Currently Underway**
+## **Recent Updates**
 
-- There is no safeguard for numbers beyond Step 1 being larger than the `Number.MAX_SAFE_INTEGER` limit. This will be the next issue addressed by the program.
+:white_check_mark: There is no safeguard for numbers beyond Step 1 being larger than the `Number.MAX_SAFE_INTEGER` limit. This will be the next issue addressed by the program.
+
+## **Updates Currently Underway**
 
 - I would like to build out a more robust UI, to display what is happening to the numbers on the page instead of inside the console. This will allow more users to be able to interact with the program, understand what is happening, and learn from it.
 

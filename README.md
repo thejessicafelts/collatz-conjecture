@@ -28,6 +28,10 @@ Once this initial release is developed and works appropriately, I intend to begi
 
 For my own curiosity, I would like to see how large of a number I can successfully run through my program, once the `Number.MAX_SAFE_INTEGER` limit is no longer a barrier to larger numbers.
 
+---
+
 ### **About Me**
 
 I am a Software Engineer, and am also currently a University Student with a casual interest in Mathematics, and absolute fascination with Computer Science.
+
+I am beginning an initial build of this program at just before midnight on a Monday, because it sounded like a fun idea. That's the type of person I am.

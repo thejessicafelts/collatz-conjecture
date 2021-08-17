@@ -24,9 +24,9 @@ This program is not intended to prove the Collatz Conjecture false, but rather t
 
 ## **Updates Currently Underway**
 
-- I would like to build out a more robust UI, to display what is happening to the numbers on the page instead of inside the console. This will allow more users to be able to interact with the program, understand what is happening, and learn from it.
+:heavy_exclamation_mark: I would like to build out a more robust UI, to display what is happening to the numbers on the page instead of inside the console. This will allow more users to be able to interact with the program, understand what is happening, and learn from it.
 
-- Once the UI is updated, I intend to release the program online to the public, either hosted on my personal website, a new website, or my github pages account. When that step has been completed, I will updated this README.md to include links to the relevant site or page.
+:heavy_exclamation_mark: Once the UI is updated, I intend to release the program online to the public, either hosted on my personal website, a new website, or my github pages account. When that step has been completed, I will updated this README.md to include links to the relevant site or page.
 
 ## **Future Planning**
 

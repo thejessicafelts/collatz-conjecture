@@ -14,17 +14,21 @@ The conjecture is that no matter what value of `n`, the sequence will always rea
 
 ## **About this Program** 
 
-It is my desire to create a JavaScript program that will take any input and apply the rules of the Collatz Conjecture, prooving any number provided (up to the `Number.MAX_SAFE_INTEGER` limit) will, in fact, always reach 1.
+This program will currently take any input, up to the `Number.MAX_SAFE_INTEGER` limit (2<sup>53</sup> – 1), and apply the rules of Collatz Conjecture to it. As of 2020, the conjecture has been check by computers for all starting values up to 2<sup>68</sup>, and has found that all values tested so far eventually end in the repeating cycle 4-2-1. Because the `Number.MAX_SAFE_INTEGER` limit is less than 2<sup>68</sup>, this program will prove any number entered will eventually reach 1.
 
-As of 2020, the conjecture has been checked by computer for all starting values up to 2<sup>68</sup>, with all initial values tested so far eventually ending in the repeating cycle (4;2;1) of period 3.
+This program is not intended to prove the Collatz Conjecture false, but rather to show that any number smaller than the `Number.MAX_SAFE_INTEGER` limit (2<sup>53</sup> – 1) does, in fact, conform to it.
 
-Since 2<sup>68</sup> is larger than the `Number.MAX_SAFE_INTEGER` limit of (2<sup>53</sup> – 1), the expected outcome of this program is that each input provided will eventually reach 1.
+## **Updates Currently Underway**
 
-Therefore, this program is not intended to prove the Collatz Conjecture false, but rather to show that any number smaller than (2<sup>53</sup> – 1) does, in fact, conform to it.
+- There is no safeguard for numbers beyond Step 1 being larger than the `Number.MAX_SAFE_INTEGER` limit. This will be the next issue addressed by the program.
+
+- I would like to build out a more robust UI, to display what is happening to the numbers on the page instead of inside the console. This will allow more users to be able to interact with the program, understand what is happening, and learn from it.
+
+- Once the UI is updated, I intend to release the program online to the public, either hosted on my personal website, a new website, or my github pages account. When that step has been completed, I will updated this README.md to include links to the relevant site or page.
 
 ## **Future Planning**
 
-Once this initial release is developed and works appropriately, I intend to begin building it out using `BigInt()` values, which I currently have no experience with.
+Once the above improvements have been made, I intend to begin building it out using `BigInt()` values, (which I currently have no experience with).
 
 For my own curiosity, I would like to see how large of a number I can successfully run through my program, once the `Number.MAX_SAFE_INTEGER` limit is no longer a barrier to larger numbers.
 

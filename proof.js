@@ -8,32 +8,57 @@ document.querySelector("#userSubmit").addEventListener("click", function(event){
 
 // Submitting and Saving User Input
 function submit_form(){
+
+   // Set value of "userInput" when form is submitted
    var userInput = document.getElementById("userInput").value;
-   console.log(`STEP 1 -- User Entered: ${userInput}.`);
+   console.log(`The user entered: ${userInput}.`);
 
-   // Check for Even or Odd Number
-   var checkNumber = (userInput % 2 == 0) ? "even" : "odd";
-   console.log(`STEP 1 -- ${userInput} is ${checkNumber}.`);
+   // Check to see if "userInput" value is === 1
+   if (userInput == 1) {
+      console.log(`The sequence has reached 1.`);
+   } 
+   
+   // Else, the sequence has not reached 1.
+   else {
+      console.log(`The sequence has not reached 1.`);
 
-      // If userInput Even
-      if (checkNumber == "even") {
+      // While the sequence is greater than 1...
+      while (userInput > 1) {
 
-         var userInput = (userInput / 2);
-         console.log(`STEP 2 -- The new number is: ${userInput}.`);
+         // Check if userInput is Even or Odd...
+         var checkNumber = (userInput % 2 == 0) ? "even" : "odd";
+
+         // If userInput is Even...
+         if (checkNumber == "even") {
+
+            console.log(`${userInput} is ${checkNumber}; n = n / 2 will be performed.`);
+
+            var userInput = (userInput / 2);
+            console.log(`The new number is: ${userInput}.`);
+            return;
+
+         } 
          
-         var checkNumber = (userInput % 2 == 0) ? "even" : "odd";
-         console.log(`STEP 2 -- ${userInput} is ${checkNumber}.`);
+         // If userInput is Odd... 
+         else if (checkNumber == "odd") {
 
-      } else if (checkNumber == "odd") {
+            console.log(`${userInput} is ${checkNumber}; n = ((n * 3) + 1) will be performed.`);
 
-         var userInput = ((userInput * 3) + 1);
-         console.log(`STEP 2 -- The new number is: ${userInput}.`);
+            var userInput = ((userInput * 3) + 1);
+            console.log(`The new number is: ${userInput}.`);
+            return;
 
-         var checkNumber = (userInput % 2 == 0) ? "even" : "odd";
-         console.log(`STEP 2 -- ${userInput} is ${checkNumber}.`);
+         } 
+         
+         // If userInput is somehow neither Even nor Odd...
+         else {
+            console.log(`ERROR: Cannot determine if ${userInput} is Even or Odd...`)
+         }
+         
+         console.log(`${userInput} is greater than 1.`);
+         
+      } return;
 
-      } else {
-         console.log("You've Done Something Wrong.")
-      }
+   } return;
 
 }

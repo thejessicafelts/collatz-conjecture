@@ -40,11 +40,8 @@ This program is not intended to prove the Collatz Conjecture false, but rather t
 
 ## **About Me**
 
-I am a Software Engineer, and am also currently a University Student with a casual interest in Mathematics, and absolute fascination with Computer Science. I am beginning an initial build of this program at just before midnight on a Monday, because it sounded like a fun idea. That's the type of person I am. <br/><br/>
-  
+I am a Software Engineer, and am also currently a University Student with a casual interest in Mathematics, and absolute fascination with Computer Science. I am beginning an initial build of this program at just before midnight on a Monday, because it sounded like a fun idea. That's the type of person I am.
 
 ### **Connect with Me:**
-
-<br/>
 
 [![Twitter @thejessicafelts](https://raw.githubusercontent.com/thejessicafelts/thejessicafelts/master/icon-twitter.png)](https://www.twitter.com/thejessicafelts) &nbsp; &nbsp; [![Instagram @thejessicafelts](https://raw.githubusercontent.com/thejessicafelts/thejessicafelts/master/icon-instagram.png)](https://www.instagram.com/thejessicafelts) &nbsp; &nbsp; [![LinkedIn @thejessicafelts](https://raw.githubusercontent.com/thejessicafelts/thejessicafelts/master/icon-linkedin.png)](https://www.linkedin.com/in/thejessicafelts)

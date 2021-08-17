@@ -1,9 +1,4 @@
-## **Collatz Conjecture**
-
-
----
-
-<br />
+# **Collatz Conjecture**
 
 The Collatz conjecture is a conjecture in mathematics that is named after **Lothar Collatz**, who first introduced the idea in 1937. It concerns sequences of numbers, defined as follows: 
 
@@ -19,13 +14,9 @@ The conjecture is that no matter what value of `n`, the sequence will always rea
 
 <br />
 <br />
-
----
-
 <br />
 
 ## **About this Program** 
-<br/>
 
 It is my desire to create a JavaScript program that will take any input and apply the rules of the Collatz Conjecture, prooving any number provided (up to the `MAX_SAFE_INTEGER` limit) will, in fact, always reach 1.
 
@@ -34,12 +25,3 @@ As of 2020, the conjecture has been checked by computer for all starting values 
 Since 2<sup>68</sup> is larger than the `MAX_SAFE_INTEGER` limit of (2<sup>53</sup> – 1), the expected outcome of this program is that each input provided will eventually reach 1.
 
 Therefore, this program is not intended to prove the Collatz Conjecture false, but rather to show that any number smaller than (2<sup>53</sup> – 1) does, in fact, conform to it.
-
-<br />
-<br />
-
----
-
-<br />
-
-Jessica Felts &nbsp; / &nbsp; 2021

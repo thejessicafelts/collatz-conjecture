@@ -20,7 +20,7 @@ function submit_form(){
       console.log(`Step ${stepCounter} -- the user entered: ${userInput}.`);
 
       // While the sequence is greater than 1...
-      while (userInput > 1) {
+      while ((userInput > 1) && (userInput <= maxNumber)) {
 
          // Check if userInput is Even or Odd...
          var checkNumber = (userInput % 2 == 0) ? "even" : "odd";
@@ -56,14 +56,21 @@ function submit_form(){
          
       }
 
-      // Once sequence reaches 1, termiate the sequence...
-      console.log("The sequence has reeached 1.");
-      console.log("Sequence terminated.");
-      console.log(`It took ${stepCounter} steps for ${originalInput} to reach 1.`);
+      if (userInput > maxNumber) {
+         console.log(`${userInput} is too large; please enter a smaller number.`);
+         console.log("Sequence terminated.");
+      }
+
+      if (userInput == 1) {
+         // Once sequence reaches 1, termiate the sequence...
+         console.log("The sequence has reeached 1.");
+         console.log("Sequence terminated.");
+         console.log(`It took ${stepCounter} steps for ${originalInput} to reach 1.`);
+      }
 
    } else {
 
-      console.log(`${userInput} is too large; please enter a smaller number.`)
+      console.log(`${userInput} is too large; please enter a smaller number.`);
 
    }
 

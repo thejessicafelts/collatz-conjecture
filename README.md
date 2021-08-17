@@ -18,7 +18,11 @@ This program will currently take any input, up to the `Number.MAX_SAFE_INTEGER` 
 
 This program is not intended to prove the Collatz Conjecture false, but rather to show that any number smaller than the `Number.MAX_SAFE_INTEGER` limit (2<sup>53</sup> – 1) does, in fact, conform to it.
 
+<br />
+
 ---
+
+<br />
 
 ## **Recent Updates**
 
@@ -26,17 +30,31 @@ This program is not intended to prove the Collatz Conjecture false, but rather t
 
 ## **Updates Currently Underway**
 
-:soon: &nbsp; I would like to build out a more robust UI, to display what is happening to the numbers on the page instead of inside the console. This will allow more users to be able to interact with the program, understand what is happening, and learn from it.
+:soon: &nbsp; **UI UPDATE** to display the general result &mdash; `It took ${stepCounter} steps for ${originalInput} to reach 1.` &mdash; for the user to see outside of the console.
 
-:soon: &nbsp; Once the UI is updated, I intend to release the program online to the public, either hosted on my personal website, a new website, or my github pages account. When that step has been completed, I will updated this README.md to include links to the relevant site or page.
+:soon: &nbsp; **UI UPDATE** to display a basic table with all steps necessary for a user input to reach 1.
+
+:soon: &nbsp; **UI UPDATE** once a more robust UI has been developed, the program will be published to a live site, accessible to anyone interested in playing around with the program.
 
 ## **Future Planning**
 
- :rocket: &nbsp; Once the above improvements have been made, I intend to begin building it out using `BigInt()` values, (which I currently have no experience with).
+:rocket: &nbsp; **UI UPDATE** building out additional UI features such as a more advanced/robust table, graphs, etc.
 
-:rocket: &nbsp; For my own curiosity, I would like to see how large of a number I can successfully run through my program, once the `Number.MAX_SAFE_INTEGER` limit is no longer a barrier to larger numbers.
+:rocket: &nbsp; **SCOPE INCREASE** begin building out the program using `BigInt()` values, removing the need for the `Number.MAX_SAFE_INTEGER` limit.
+
+## **Eventual Goal**
+
+:crystal_ball: &nbsp; Eventually expand the program to automatically sort through all numbers, from low to highest. 
+
+Numbers checked within another set will be listed for exclusion (i.e. 3 would also exclude 10, 5, 16, 8, 4, and 2 being checked in the future).
+
+Eventually it would be desirable to terminate sequences once they run into an already checked number (i.e. 6 would terminate at 3, since 3 has already been checked and confirmed to result in 1). 
+
+<br />
 
 ---
+
+<br />
 
 ## **About Me**
 

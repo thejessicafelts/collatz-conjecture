@@ -22,7 +22,7 @@ function submit_form(){
       // If userInput is Even...
       if (checkNumber == "even") {
 
-         console.log(`${userInput} is ${checkNumber}; n = n / 2 will be performed.`);
+         console.log(`${userInput} is ${checkNumber}; n = (n / 2) will be performed.`);
 
          var userInput = (userInput / 2);
          console.log(`The new number is: ${userInput}.`);
@@ -42,10 +42,6 @@ function submit_form(){
       // If userInput is somehow neither Even nor Odd...
       else {
          console.log(`ERROR: Cannot determine if ${userInput} is Even or Odd...`)
-      }
-      
-      if (userInput > 1){
-         console.log(`${userInput} is greater than 1.`);
       }
       
    }

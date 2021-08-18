@@ -54,6 +54,7 @@ section#user-input input[type=submit] {
    font-weight: 900;
    width: 240px;
    height: 42px;
+   margin-bottom: 30px;
 }
 
 /* Remove Spin Buttons */

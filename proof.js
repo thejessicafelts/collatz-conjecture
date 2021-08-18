@@ -65,7 +65,12 @@ function submit_form(){
          // Once sequence reaches 1, termiate the sequence...
          console.log("The sequence has reeached 1.");
          console.log("Sequence terminated.");
-         console.log(`It took ${stepCounter} steps for ${originalInput} to reach 1.`);
+
+         var outputSummary = `It took ${stepCounter} steps for ${originalInput} to reach 1.`;
+         console.log(outputSummary);
+
+         // Print the outputSummary onto the UI
+         document.getElementById("outputArea").innerHTML = outputSummary;
       }
 
    } else {

@@ -66,11 +66,17 @@ function submit_form(){
          console.log("The sequence has reeached 1.");
          console.log("Sequence terminated.");
 
-         var outputSummary = `It took ${stepCounter} steps for ${originalInput} to reach 1.`;
-         console.log(outputSummary);
+         // Unhide the Output Section
+         document.getElementById("output").style.display = "block";
+
+         var outputSummary = `It took <strong>${stepCounter} steps</strong> for ${originalInput} to reach 1.`;
+         console.log(`It took ${stepCounter} steps for ${originalInput} to reach 1.`);
 
          // Print the outputSummary onto the UI
-         document.getElementById("outputArea").innerHTML = outputSummary;
+         document.getElementById("outputSummary").innerHTML = outputSummary;
+
+         // Print the output into a Table
+         // document.getElementById("outputTable").innerHTML = `This will be a table!`;
       }
 
    } else {

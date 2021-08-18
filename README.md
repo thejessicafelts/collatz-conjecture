@@ -26,11 +26,11 @@ This program is not intended to prove the Collatz Conjecture false, but rather t
 
 ## **Recent Updates**
 
+:white_check_mark: &nbsp; UI now displays the general result &mdash; `It took ${stepCounter} steps for ${originalInput} to reach 1.` &mdash; for the user to see outside of the console.
+
 :white_check_mark: &nbsp; There are now safeguards for numbers beyond Step 1, being larger than the `Number.MAX_SAFE_INTEGER` limit. Numbers larger than the limit will now terminiate the program and provide an error message in console.
 
 ## **Updates Currently Underway**
-
-:soon: &nbsp; **UI UPDATE** to display the general result &mdash; `It took ${stepCounter} steps for ${originalInput} to reach 1.` &mdash; for the user to see outside of the console.
 
 :soon: &nbsp; **UI UPDATE** to display a basic table with all steps necessary for a user input to reach 1.
 

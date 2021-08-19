@@ -69,14 +69,23 @@ function submit_form(){
          // Unhide the Output Section
          document.getElementById("output").style.display = "block";
 
-         var outputSummary = `It took <strong>${stepCounter} steps</strong> for ${originalInput} to reach 1.`;
-         console.log(`It took ${stepCounter} steps for ${originalInput} to reach 1.`);
+         // Output Summary, based on stepCounter value
+         if (stepCounter > 1) {
+            var outputSummary = `It took <strong>${stepCounter} steps</strong> for ${originalInput} to reach 1.`;
+            console.log(`It took ${stepCounter} steps for ${originalInput} to reach 1.`);
+         }
+         else if (stepCounter == 1) {
+            var outputSummary = `It took <strong>${stepCounter} step</strong> for ${originalInput} to reach 1.`;
+            console.log(`It took ${stepCounter} step for ${originalInput} to reach 1.`);
+         }
+         else {
+            var outputSummary = `ERROR: Something went wrong!`;
+            console.log(`ERROR: Something went wrong!`);
+         }
 
          // Print the outputSummary onto the UI
          document.getElementById("outputSummary").innerHTML = outputSummary;
 
-         // Print the output into a Table
-         // document.getElementById("outputTable").innerHTML = `This will be a table!`;
       }
 
    } else {

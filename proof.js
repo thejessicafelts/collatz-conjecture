@@ -40,17 +40,23 @@ function submit_form(){
          // If stateEvenOdd is "even"...
          if (stateEvenOdd == "even") {
 
-            equation = `n = (n / 2)`;
             newNum = (userInput / 2);
+            equation = `n = (n / 2)`;
+            equationStepOne = `n = (${userInput} / 2)`;
+            equationStepTwo = `n = ${newNum}`;
 
             document.getElementById("outputTableBody").innerHTML += 
             `
             <tr>
-               <td class="step">Step ${stepCounter}</th>
-               <td class="num-start">${userInput}</th>
-               <td class="num-status">${stateEvenOdd}</th>
-               <td class="equation">${equation}</th>
-               <td class="num-end">${newNum}</th>
+               <td class="step">Step ${stepCounter}</td>
+               <td class="num-start">${userInput}</td>
+               <td class="num-status">${stateEvenOdd}</td>
+               <td class="equation">
+                  <strong>${equation}</strong><br/>
+                  ${equationStepOne}<br/>
+                  ${equationStepTwo}
+               </td>
+               <td class="num-end">${newNum}</td>
             </tr>
             `;
 
@@ -61,17 +67,26 @@ function submit_form(){
          // If stateEvenOdd is "odd"...
          else if (stateEvenOdd == "odd") {
 
-            equation = `n = ((n * 3) + 1)`;
             newNum = ((userInput * 3) + 1);
+            newNumStepTwo = userInput * 3;
+            equation = `n = ((n * 3) + 1)`;
+            equationStepOne = `n = ((${userInput} * 3) + 1)`;
+            equationStepTwo = `n = (${newNumStepTwo} + 1)`;
+            equationStepThree = `n = ${newNum}`;
 
             document.getElementById("outputTableBody").innerHTML += 
             `
             <tr>
-               <td class="step">Step ${stepCounter}</th>
-               <td class="num-start">${userInput}</th>
-               <td class="num-status">${stateEvenOdd}</th>
-               <td class="equation">${equation}</th>
-               <td class="num-end">${newNum}</th>
+               <td class="step">Step ${stepCounter}</td>
+               <td class="num-start">${userInput}</td>
+               <td class="num-status">${stateEvenOdd}</td>
+               <td class="equation">
+                  <strong>${equation}</strong><br/>
+                  ${equationStepOne}<br/>
+                  ${equationStepTwo}<br/>
+                  ${equationStepThree}
+               </td>
+               <td class="num-end">${newNum}</td>
             </tr>
             `;
 

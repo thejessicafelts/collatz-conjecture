@@ -7,12 +7,13 @@
 }
 
 ul {
-   margin: -9px 0 0 0;
+   margin: 0;
    padding: 0;
 }
 
 ul li {
    list-style-type: none;
+   margin: 0 0 0 30px;
 }
 
 main {
@@ -24,7 +25,7 @@ ol {
    margin: 30px auto;
 }
 
-li {
+ol li {
    margin: 10px auto;
    margin-left: 20px;
    font-weight: 500;

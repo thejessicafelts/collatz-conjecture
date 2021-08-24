@@ -1,19 +1,87 @@
+/* Style Resets */
+
 * {
    box-sizing: border-box;
+   font-family: "Acumin Pro", sans-serif;
    margin: 0;
-   padding: 0;
-   font-family: sans-serif;
-   color: black;
+   padding: 0; }
+ 
+/* Global Styles */
+
+a,
+a.active,
+a.focus,
+a.hover,
+a.visited {
+   color: inherit !important;
+   text-decoration: none !important;
 }
 
 ul {
-   margin: -9px 0 0 0;
+   margin: 0;
    padding: 0;
 }
 
 ul li {
    list-style-type: none;
 }
+
+.flex { display: flex; }
+.flex-row { flex-direction: row; }
+.flex-col { flex-direction: column; }
+.flex-center { justify-content: center; }
+.flex-right { justify-content: flex-end; }
+
+.btn-primary {
+   background: #00BFC2;
+   border: 1px solid #00a6a9;
+   color: #FFFFFF !important;
+}
+
+.btn-primary:hover {
+   background: #00a6a9;
+   border: 1px solid #00a6a9;
+}
+
+.btn-secondary {
+   background: #f4f4f4;
+   border: 1px solid #CDCCC9;
+   color: #404040 !important;
+}
+.btn-secondary:hover {
+   background: #CDCCC9;
+   border: 1px solid #CDCCC9;
+}
+
+/* Project Navigation */
+
+header#project-navigation {
+   background: #f4f4f4;
+   box-shadow: 0 1px 0 rgba(69, 69, 69, 0.1), 0 1px 3px rgba(69, 69, 69, 0.1), 0 4px 25px rgba(69, 69, 69, 0.035), 0 1px 1px rgba(69, 69, 69, 0.025);
+   height: 50px;
+   max-height: 50px;
+   position: fixed;
+   top: 0;
+   width: 100%;
+}
+header#project-navigation .project-name h1 {
+   font-size: 20px;
+   font-weight: 900;
+   padding: 14px 0 0;
+   text-align: left;
+}
+header#project-navigation .project-links ul li {
+   cursor: pointer;
+   font-size: 25px;
+   margin-left: 10px;
+   padding: 7px 0 0;
+}
+header#project-navigation .project-links ul li i:hover,
+header#project-navigation .project-links ul li i.active {
+   color: #00BFC2; 
+}
+
+/* Project-Specific Styles */
 
 main {
    margin: 120px auto 100px;
@@ -24,13 +92,10 @@ ol {
    margin: 30px auto;
 }
 
-li {
+ol li {
    margin: 10px auto;
    margin-left: 20px;
    font-weight: 500;
-}
-
-ol li {
    width: 460px;
 }
 
@@ -40,12 +105,12 @@ ol li p {
 }
 
 ol li ol {
-   list-style-type: lower-alpha;
    margin: 0 0 0 30px;
    width: 450px;
 }
 
 ol li ol li {
+   list-style-type: lower-alpha;
    margin-left: 5px;
    width: 440px;
 }
@@ -104,17 +169,17 @@ section#user-input input[type=submit] {
 
 /* Remove Spin Buttons */
 
-/* Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
+   /* Chrome, Safari, Edge, Opera */
+   input::-webkit-outer-spin-button,
+   input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+   }
 
-/* Firefox */
-input[type=number] {
-  -moz-appearance: textfield;
-}
+   /* Firefox */
+   input[type=number] {
+   -moz-appearance: textfield;
+   }
 
 section#output {
    display: none;
@@ -160,48 +225,13 @@ th {
 
 td.step {
    font-weight: bold;
+   min-width: 100px;
 }
 
 td.equation {
-   width: 175px;
+   min-width: 175px;
 }
 
 tr:hover td {
    background: #f0f0f0;
 }
-
-
-
-/* Project Navigation */
-header#project-navigation {
-   background: #f4f4f4;
-   box-shadow: 0 1px 0 rgba(69, 69, 69, 0.1), 0 1px 3px rgba(69, 69, 69, 0.1), 0 4px 25px rgba(69, 69, 69, 0.035), 0 1px 1px rgba(69, 69, 69, 0.025);
-   height: 50px;
-   max-height: 50px;
-   position: fixed;
-   top: 0;
-   width: 100%;
-}
-header#project-navigation .project-name h1 {
-   font-size: 20px;
-   font-weight: 900;
-   padding: 14px 0 0;
-   text-align: left;
-}
-header#project-navigation .project-links ul li {
-   cursor: pointer;
-   font-size: 25px;
-   margin-left: 10px;
-   padding: 7px 0 0;
-}
-header#project-navigation .project-links ul li i:hover,
-header#project-navigation .project-links ul li i.active {
-   color: #00BFC2; 
-}
-
-/* Flex Rules */
-.flex { display: flex; } 
-.flex-row { flex-direction: row; }
-.flex-col { flex-direction: column; }
-.flex-center { justify-content: center; }
-.flex-right { justify-content: flex-end; }

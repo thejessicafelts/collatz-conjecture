@@ -18,7 +18,8 @@ The conjecture is that no matter what value of `n`, the sequence will always rea
 
 I have worked the Collatz Conjecture with the following languages:
 
-- View the Solution in [C++](https://github.com/thejessicafelts/collatz-conjecture/tree/master/languages/c++ Solution in [JavaScript](https://github.com/thejessicafelts/collatz-conjecture/tree/master/languages/javascript)
+- View the Solution in [C++](https://github.com/thejessicafelts/collatz-conjecture/tree/master/languages/c++)
+- View the Solution in [JavaScript](https://github.com/thejessicafelts/collatz-conjecture/tree/master/languages/javascript)
 - View the Solution in [Python](https://github.com/thejessicafelts/collatz-conjecture/tree/master/languages/python)
 
 Follow the links above to see instructions for running each program.

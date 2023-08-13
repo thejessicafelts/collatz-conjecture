@@ -35,9 +35,9 @@ To see the solution to the Collatz Conjecture in JavaScript, visit this website:
         collatz_conjecture(user_input)
 ```
 
----
+<br />
 
-# **About the Collatz Conjecture**
+## **About the Collatz Conjecture**
 
 The Collatz conjecture is a conjecture in mathematics that is named after **Lothar Collatz**, who first introduced the idea in 1937. It concerns sequences of numbers, defined as follows: 
 

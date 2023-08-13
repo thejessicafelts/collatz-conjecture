@@ -12,7 +12,7 @@ Then each term is obtained from the previous term as follows:
 
 The conjecture is that no matter what value of `n`, the sequence will always reach 1.
 
----
+<br />
 
 ##  **Working the Collatz Conjecture**
 
@@ -22,8 +22,6 @@ I have worked the Collatz Conjecture with the following languages:
 - Python [View in Python](https://github.com/thejessicafelts/collatz-conjecture/tree/master/languages/python)
 
 Follow the links above to see instructions for running each program.
-
----
 
 <br />
 

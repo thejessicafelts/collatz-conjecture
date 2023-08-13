@@ -50,3 +50,18 @@ Then each term is obtained from the previous term as follows:
 - If the previous term is odd, the next term is 3 times the previous term plus 1: `((n * 3) + 1)`.
 
 The conjecture is that no matter what value of `n`, the sequence will always reach 1.
+
+##  **[View Solutions in Other Languages]()**
+
+- JavaScript [View in JavaScript](https://github.com/thejessicafelts/collatz-conjecture/tree/master/languages/javascript)
+- [Return to Repository Home](https://www.github.com/thejessicafelts.com/collatz-conjecture/)
+
+<br />
+
+## **About Me**
+
+I am a Senior/Lead Software Engineer and an Accessibility Advocate. I am currently completing dual Bachelor of Science degrees -- one in Neuroscience, and the other in CMB (Cell Biology, Molecular Biology, and Biomedical Sciences). I have a passion for Neuroscience, and am translating that into a career change to Artificial Intelligence and Machine Learning.
+
+### **Connect with Me:**
+
+[![Twitter @thejessicafelts](https://raw.githubusercontent.com/thejessicafelts/thejessicafelts/master/icon-twitter.png)](https://www.twitter.com/thejessicafelts) &nbsp; &nbsp; [![Instagram @thejessicafelts](https://raw.githubusercontent.com/thejessicafelts/thejessicafelts/master/icon-instagram.png)](https://www.instagram.com/thejessicafelts) &nbsp; &nbsp; [![LinkedIn @thejessicafelts](https://raw.githubusercontent.com/thejessicafelts/thejessicafelts/master/icon-linkedin.png)](https://www.linkedin.com/in/thejessicafelts)

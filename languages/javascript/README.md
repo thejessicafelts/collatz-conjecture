@@ -56,6 +56,8 @@ Then each term is obtained from the previous term as follows:
 
 The conjecture is that no matter what value of `n`, the sequence will always reach 1.
 
+<br />
+
 ##  **View Solutions in Other Languages**
 
 - View the Solution in [Python](https://github.com/thejessicafelts/collatz-conjecture/tree/master/languages/python)

@@ -56,10 +56,10 @@ Then each term is obtained from the previous term as follows:
 
 The conjecture is that no matter what value of `n`, the sequence will always reach 1.
 
-##  **[View Solutions in Other Languages]()**
+##  **View Solutions in Other Languages**
 
 - View the Solution in [Python](https://github.com/thejessicafelts/collatz-conjecture/tree/master/languages/python)
-- Or Return to the [Repository Homepage](https://www.github.com/thejessicafelts.com/collatz-conjecture/)
+- Return to the [Repository Homepage](https://www.github.com/thejessicafelts.com/collatz-conjecture/)
 
 <br />
 

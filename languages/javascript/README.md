@@ -61,7 +61,7 @@ The conjecture is that no matter what value of `n`, the sequence will always rea
 ##  **View Solutions in Other Languages**
 
 - View the Solution in [Python](https://github.com/thejessicafelts/collatz-conjecture/tree/master/languages/python)
-- Return to the [Repository Homepage](https://www.github.com/thejessicafelts.com/collatz-conjecture/)
+- Return to the [Repository Homepage](https://www.github.com/thejessicafelts/collatz-conjecture/)
 
 <br />
 

@@ -55,6 +55,7 @@ The conjecture is that no matter what value of `n`, the sequence will always rea
 
 ##  **View Solutions in Other Languages**
 
+- View the Solution in [C++](https://github.com/thejessicafelts/collatz-conjecture/tree/master/languages/c++)
 - View the Solution in [JavaScript](https://github.com/thejessicafelts/collatz-conjecture/tree/master/languages/javascript)
 - Return to the [Repository Homepage](https://www.github.com/thejessicafelts/collatz-conjecture/)
 

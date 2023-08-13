@@ -1,3 +1,5 @@
+// Collatz Conjecture in JavaScript
+
 const userInput = parseInt(prompt("Enter a Positive Whole Number:"));
 
 if(isNaN(userInput) || userInput <= 0){

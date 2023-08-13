@@ -12,45 +12,16 @@ Then each term is obtained from the previous term as follows:
 
 The conjecture is that no matter what value of `n`, the sequence will always reach 1.
 
-## **About this Program** 
-
-This program will currently take any input, up to the `Number.MAX_SAFE_INTEGER` limit (2<sup>53</sup> – 1), and apply the rules of Collatz Conjecture to it. As of 2020, the conjecture has been check by computers for all starting values up to 2<sup>68</sup>, and has found that all values tested so far eventually end in the repeating cycle 4-2-1. Because the `Number.MAX_SAFE_INTEGER` limit is less than 2<sup>68</sup>, this program will prove any number entered will eventually reach 1.
-
-This program is not intended to prove the Collatz Conjecture false, but rather to show that any number smaller than the `Number.MAX_SAFE_INTEGER` limit (2<sup>53</sup> – 1) does, in fact, conform to it.
-
-<br />
-
 ---
 
-<br />
+##  **Working the Collatz Conjecture**
 
-## **Recent Updates**
+I have worked the Collatz Conjecture with the following languages:
 
-:white_check_mark: &nbsp; UI now displays a table detailing all of the steps necessary for the user input to reach 1.
+- JavaScript [View in JavaScript](https://github.com/thejessicafelts/collatz-conjecture/tree/master/languages/javascript)
+- Python [View in Python](https://github.com/thejessicafelts/collatz-conjecture/tree/master/languages/python)
 
-:white_check_mark: &nbsp; The program has been published to my [Github Pages site](https://thejessicafelts.github.io/collatz-conjecture).
-
-:white_check_mark: &nbsp; UI now displays the general result &mdash; `It took ${stepCounter} steps for ${originalInput} to reach 1.` &mdash; for the user to see outside of the console.
-
-:white_check_mark: &nbsp; There are now safeguards for numbers beyond Step 1, being larger than the `Number.MAX_SAFE_INTEGER` limit. Numbers larger than the limit will now terminiate the program and provide an error message in console.
-
-## **Updates Currently Underway**
-
-:soon: &nbsp; **UI UPDATE** building out additional UI features such as a more advanced/robust table, graphs, etc. to help with visualization of data.
-
-## **Future Planning**
-
-:rocket: &nbsp; **SCOPE INCREASE** begin building out the program using `BigInt()` values, removing the need for the `Number.MAX_SAFE_INTEGER` limit.
-
-## **Eventual Goal**
-
-:crystal_ball: &nbsp; Eventually expand the program to automatically sort through all numbers, from low to highest. 
-
-Numbers checked within another set will be listed for exclusion (i.e. 3 would also exclude 10, 5, 16, 8, 4, and 2 being checked in the future).
-
-Eventually it would be desirable to terminate sequences once they run into an already checked number (i.e. 6 would terminate at 3, since 3 has already been checked and confirmed to result in 1). 
-
-<br />
+Follow the links above to see instructions for running each program.
 
 ---
 
@@ -58,7 +29,7 @@ Eventually it would be desirable to terminate sequences once they run into an al
 
 ## **About Me**
 
-I am a Software Engineer, and am also currently a University Student with a casual interest in Mathematics, and absolute fascination with Computer Science. I am beginning an initial build of this program at just before midnight on a Monday, because it sounded like a fun idea. That's the type of person I am.
+I am a Senior/Lead Software Engineer and an Accessibility Advocate. I am currently completing dual Bachelor of Science degrees -- one in Neuroscience, and the other in CMB (Cell Biology, Molecular Biology, and Biomedical Sciences). I have a passion for Neuroscience, and am translating that into a career change to Artificial Intelligence and Machine Learning.
 
 ### **Connect with Me:**
 

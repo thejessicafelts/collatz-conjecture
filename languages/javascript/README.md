@@ -58,8 +58,8 @@ The conjecture is that no matter what value of `n`, the sequence will always rea
 
 ##  **[View Solutions in Other Languages]()**
 
-- Python [View in Python](https://github.com/thejessicafelts/collatz-conjecture/tree/master/languages/python)
-- [Return to Repository Home](https://www.github.com/thejessicafelts.com/collatz-conjecture/)
+- View the Solution in [Python](https://github.com/thejessicafelts/collatz-conjecture/tree/master/languages/python)
+- Or Return to the [Repository Homepage](https://www.github.com/thejessicafelts.com/collatz-conjecture/)
 
 <br />
 

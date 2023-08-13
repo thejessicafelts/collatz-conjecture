@@ -51,10 +51,10 @@ Then each term is obtained from the previous term as follows:
 
 The conjecture is that no matter what value of `n`, the sequence will always reach 1.
 
-##  **[View Solutions in Other Languages]()**
+##  **View Solutions in Other Languages**
 
-- JavaScript [View in JavaScript](https://github.com/thejessicafelts/collatz-conjecture/tree/master/languages/javascript)
-- [Return to Repository Home](https://www.github.com/thejessicafelts.com/collatz-conjecture/)
+- View the Solution in [JavaScript](https://github.com/thejessicafelts/collatz-conjecture/tree/master/languages/javascript)
+- Or Return to the [Repository Homepage](https://www.github.com/thejessicafelts.com/collatz-conjecture/)
 
 <br />
 
